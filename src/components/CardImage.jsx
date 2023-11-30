@@ -47,7 +47,7 @@ export default function CardImage() {
           <motion.div
             className={`h-[400px] cursor-pointer rounded-lg border bg-center bg-no-repeat`}
             style={{ backgroundImage: `url(${card.src})` }}
-            key={card.alt}
+            key={index}
             variants={cardsVariants}
             onClick={() => handlerClick(index)}
             initial={"collapsed"}

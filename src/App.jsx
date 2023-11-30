@@ -11,8 +11,12 @@ import ExitEnter from "./animation/ExitEnter";
 import Gesture from "./animation/Gesture";
 import HoverTap from "./animation/HoverTap";
 import ScrollAnimation from "./animation/ScrollAnimation";
+import ScrollTrigger from "./animation/ScrollTrigger";
 import TextAnimation from "./animation/TextAnimation";
+import UseAnimationControl from "./animation/UseAnimationControl";
+import ViewBasedAnimation from "./animation/ViewBasedAnimation";
 import CardImage from "./components/CardImage";
+import RevealText from "./components/RevealText";
 import Home from "./components/layouts/Home";
 import RootLayout from "./components/layouts/RootLayout";
 export default function App() {
@@ -29,6 +33,10 @@ export default function App() {
         <Route path="gesture" element={<Gesture />} />
         <Route path="hovertap" element={<HoverTap />} />
         <Route path="scrollanimation" element={<ScrollAnimation />} />
+        <Route path="scrolltrigger" element={<ScrollTrigger />} />
+        <Route path="useanimationcontrol" element={<UseAnimationControl />} />
+        <Route path="viewbasedanimation" element={<ViewBasedAnimation />} />
+        <Route path="reveal" element={<RevealText />} />
       </Route>,
     ),
   );

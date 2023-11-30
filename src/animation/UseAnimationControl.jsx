@@ -16,7 +16,10 @@ const UseAnimationControl = () => {
         gap: "0.8rem",
       }}
     >
-      <button onClick={handleClick} className="example-button">
+      <button
+        onClick={handleClick}
+        className="rounded-sm bg-destructive px-8 py-2 text-white"
+      >
         Flip it!
       </button>
       <motion.div
